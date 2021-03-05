@@ -5,7 +5,6 @@ while True:
         break
     except ValueError:
         print("Please use correct numbers")
-        continue
 #avoid cheaters
 if kids > 10:
     kids =10
