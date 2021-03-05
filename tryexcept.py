@@ -12,6 +12,6 @@ while True:
         print("Something else happened")
     else:
         print("you were born around", 2021 - age)
-        break
-    finally:
-        print("Thanks for playing my game")
+    break
+finally:
+    print("Thanks for playing my game")
